@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sukumar</h1>
 <h3 align="center">A passionate frontend developer</h3>
-![giphy](https://user-images.githubusercontent.com/115460777/235719990-9943d94f-8750-4bb6-9df3-927fc7590552.gif)
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=v-sukumar&label=Profile%20views&color=0e75b6&style=flat" alt="v-sukumar" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=v-sukumar" alt="v-sukumar" /></a> </p>
