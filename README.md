@@ -1,4 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sukumar</h1>
+![giphy](https://user-images.githubusercontent.com/115460777/235719366-a77f4e78-e2d8-4645-8c91-a8397512bdbe.gif)
 <h3 align="center">A passionate frontend developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=v-sukumar&label=Profile%20views&color=0e75b6&style=flat" alt="v-sukumar" /> </p>
