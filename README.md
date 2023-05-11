@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://v-sukumar.github.io/](https://v-sukumar.github.io/)
 
-- 📫 How to reach me **sukumarmee@gmail.com**
+- 📫 How to reach me ** sukumarmee@gmail.com **
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing](https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing)
 
