@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import {Routes,Route} from "react-router-dom"
 
+
 const MainRoutes = () => {
   return (
     <Routes>
