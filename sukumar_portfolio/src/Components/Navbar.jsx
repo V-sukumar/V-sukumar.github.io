@@ -26,14 +26,14 @@ const handleclickskill=()=>{
 }
 const handleclickproject=()=>{
   window.scrollTo({
-    top: 2200,
+    top: 2150,
     bottom:750,
     behavior: "smooth",
 });
 }
 const handleclickcontact=()=>{
   window.scrollTo({
-    top: 3000,
+    top: 2900,
     bottom:750,
     behavior: "smooth",
 });
@@ -61,7 +61,7 @@ const handleclickcontact=()=>{
                 <Text color={'grey'} _hover={{color:'black', cursor:'pointer'}} ><i onClick={handleclickproject}>Projects</i> </Text>
               </Box>
               <Box>
-                <a id="resume-link-1" href={Resume} download className="nav-link resume"><Text  id="resume-button-1" color="black" _hover={{color:'#43A047'}}><b><i>Resume</i> </b> </Text></a>
+                <a id="resume-link-1" href={Resume} download className="nav-link resume" style={{textDecoration:'none'}}><Text  id="resume-button-1" color="black" _hover={{color:'#43A047'}}><b><i>Resume</i> </b> </Text></a>
               </Box>
               <Box mt={20} ml={15}>
                 <Button onClick={handleclickcontact} cursor={'pointer'} pt={5} pb={5} pr={10}  pl={10}  border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={25} boxShadow={'0 20px 24px 3px #A5D6A7;'}><i>Contact</i> </Button>

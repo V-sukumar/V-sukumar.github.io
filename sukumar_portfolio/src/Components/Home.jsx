@@ -1,4 +1,4 @@
-import { Box, Flex, Image,Button, Container } from '@chakra-ui/react'
+import { Box, Flex, Image,Button, Container,Text } from '@chakra-ui/react'
 import React from 'react'
 import Resume from "../Resume/Sukumar-V-Resume.pdf"
 import { Link } from 'react-router-dom'
@@ -7,6 +7,13 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 const Home = () => {
+  const handleclickcontact=()=>{
+    window.scrollTo({
+      top: 2900,
+      bottom:750,
+      behavior: "smooth",
+    });
+  }
   return (
     <div id="home">
       <Container  margin={70}>
@@ -18,14 +25,14 @@ const Home = () => {
               <Box mt={10}>
                 <Flex gap={40}>
                   <a id="resume-link-2" href={Resume} download><Button  id="resume-button-2" pt={10} pb={10} pr={20}  pl={20} border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7;'}><i>Resume</i> </Button></a>
-                  <Link to="/contact"><Button  pt={10} pb={10} pr={20}  pl={20}border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black',}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7;'}><i>Hire me</i> </Button></Link>
+                  <a><Button onClick={handleclickcontact} pt={10} pb={10} pr={20}  pl={20}border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black',}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7;'}><i>Hire me</i> </Button></a>
                 </Flex>
               </Box>
               <Box mt={70}>
                 <Flex gap={30}>
                   <a href="https://github.com/V-sukumar"><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./github.png' /></a>
                   <a href="https://www.linkedin.com/in/suku-sukumar"><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./linkedin.png' /></a>
-                  <a href="mailto:sukumarmee@gmail.com"><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./mail.png' /></a>
+                  <a href="mailto:sukumarmee@gmail.com" target='blank'><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./mail.png' /></a>
                 </Flex>
               </Box>
             </Box>
@@ -43,5 +50,6 @@ const Home = () => {
   )
   
 }
+
 
 export default Home
