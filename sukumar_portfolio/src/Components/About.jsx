@@ -17,7 +17,7 @@ const About = () => {
             </Box> 
           </Flex>
           <Box>
-            <h1 style={{textAlign:'center',marginTop:"100px",marginBottom:"100px"}}><i><a href="/"><img src="https://readme-typing-svg.herokuapp.com?font=Italic&weight=800&size=30&pause=1000&color=000000&width=435&lines=Hi+%2C+I+am+Sukumar.;I+am+a+Developer.;I+Love+to+Develop.;MERN+Developer." alt="Typing SVG" /></a></i></h1>
+            <h1 style={{textAlign:'center',marginTop:"100px",marginBottom:"100px"}}><i><a href="/"><img src="https://readme-typing-svg.herokuapp.com?font=Metal&size=30&pause=1000&color=83858A&width=435&lines=Hi+%2C+I+am+Sukumar;I+am+a+Developer;I+Love+Develop;MERN+Developer" alt="Typing SVG"/></a></i></h1>
           </Box>
         </Box> 
       </Container>
