@@ -95,7 +95,7 @@ const Projects = () => {
                 <Image w={['100%', '668px']} src='./Dribbble project.png' />
               </Box>
               <Box display="flex" justifyContent={['center']} gap={2} mt={16} mb={10}>
-                <Link href='https://tangy-instrument-3367.vercel.app/' class="project-deployed-link">
+                <Link href='https://tangy-instrument-3367-rho.vercel.app/' class="project-deployed-link">
                   <Button
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
@@ -109,7 +109,7 @@ const Projects = () => {
                     <i>LIVE</i>
                   </Button>
                 </Link>
-                <Link href='https://github.com/vsachin42/tangy-instrument-3367' class="project-github-link">
+                <Link href='https://github.com/V-sukumar/Dribble-mania' class="project-github-link">
                   <Button
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
