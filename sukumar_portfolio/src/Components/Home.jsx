@@ -9,9 +9,9 @@ import Contact from "./Contact";
 import Stats from './Stats';
 const Home = () => {
   function OpenTab() {
-    window.open(
-      `https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing`
-      );
+    const url=`https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing`
+    window.open(url, '_blank');
+
   }
   return (
     <div id="home" >
@@ -23,7 +23,7 @@ const Home = () => {
               <span style={{fontSize:"14px",fontWeight:'100px',color:'grey',textAlign:'start',marginTop:'10px'}}><i>Full Stack Web Developer with proficient Skilled in both Frontend and Backend Development for producing the Quality work</i></span>
               <Box mt={5}>
                 <Flex gap={10}>
-                  <a id="resume-link-2" href={Resume} download><Button onClick={OpenTab} position={"revert-layer"} id="resume-button-2"  border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7'}><i>Resume</i> </Button></a>
+                  <a id="resume-link-2" href="Sukumar-V-Resume.pdf" download="Sukumar-V-Resume.pdf"><Button onClick={OpenTab} position={"revert-layer"} id="resume-button-2"  border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7'}><i>Resume</i> </Button></a>
                   <Link to='contact'spy={true} smooth={true} activeClass='="activeClass' offset={-100} duration={600}><Button position={"revert-layer"}  border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black',}} color={'white'} borderRadius={'20px'} fontSize={20} boxShadow={'0 20px 24px 3px #A5D6A7;'}><i>Hire me</i> </Button></Link>
                 </Flex>
                 <Box mt={10}>

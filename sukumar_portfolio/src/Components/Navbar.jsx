@@ -4,11 +4,11 @@ import {Link} from "react-scroll"
 import {Box,  Button,  Container,  Flex,  SimpleGrid, Spacer, Text} from "@chakra-ui/react"
 import { DrawerExample } from './SideBar';
 const Navbar = () => {
-function OpenTab() {
-  window.open(
-    `https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing`
-    );
-}
+  function OpenTab() {
+    const url=`https://drive.google.com/file/d/1Dp1lk10apqwgii1N0iT0LyFziDyHtArP/view?usp=sharing`
+    window.open(url, '_blank');
+
+  }
   return (
     <div id="nav-menu">
       <Box as="header"  px={4} position="fixed" w="100%" zIndex={"1000"} top={"0px"} p={4} fontSize={25} fontWeight={400} fontFamily={'Ubuntu, sans-serif'}    bg={'#A5D6A7'}>
@@ -32,7 +32,7 @@ function OpenTab() {
                   <Link to='projects'spy={true} smooth={true} activeClass='="activeClass' offset={-100} duration={600}><Text color={'black'} _hover={{color:'black', cursor:'pointer'}} class="nav-link projects"  ><i>Projects</i> </Text></Link>
                 </Box>
                 <Box >
-                  <a id="resume-link-1" href={Resume} download className="nav-link resume" style={{textDecoration:'none'}}><Button   id="resume-button-1" border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={25}  onClick={OpenTab}><b><i>Resume</i> </b> </Button></a>
+                  <a id="resume-link-1" href="Sukumar-V-Resume.pdf" download="Sukumar-V-Resume.pdf" className="nav-link resume" style={{textDecoration:'none'}}><Button   id="resume-button-1" border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={25}  onClick={OpenTab}><b><i>Resume</i> </b> </Button></a>
                 </Box>
                 <Box  >
                 <Link to='contact'spy={true} smooth={true} activeClass='="activeClass' offset={-100} duration={600}><Button className="nav-link contact"  cursor={'pointer'}   border={'1px solid #4CBB17'} bg={'#4CBB17'} _hover={{bg:'white',color:'black'}} color={'white'} borderRadius={'20px'} fontSize={25} ><i>Contact</i> </Button></Link>
