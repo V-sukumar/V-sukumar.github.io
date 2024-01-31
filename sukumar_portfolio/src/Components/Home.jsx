@@ -1,6 +1,5 @@
-import { Box, Flex, Image,Button, Container,Text } from '@chakra-ui/react'
+import { Box, Flex, Image,Button } from '@chakra-ui/react'
 import React from 'react'
-import Resume from "../Resume/Sukumar-V-Resume.pdf"
 import {Link} from "react-scroll"
 import About from "./About";
 import Skills from "./Skills";
@@ -28,8 +27,8 @@ const Home = () => {
                 </Flex>
                 <Box mt={10}>
                 <Flex gap={30}>
-                  <a href="https://github.com/V-sukumar"><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./github.png' /></a>
-                  <a href="https://www.linkedin.com/in/suku-sukumar"><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./linkedin.png' /></a>
+                  <a href="https://github.com/V-sukumar" target='blank' ><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./github.png' /></a>
+                  <a href="https://www.linkedin.com/in/suku-sukumar" target='blank' ><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./linkedin.png' /></a>
                   <a href="mailto:sukumarmee@gmail.com" target='blank'><Image _hover={{transform:'scale(1.30)'}} transition={'0.1s ease-in-out'} w={50} src='./mail.png' /></a>
                 </Flex>
               </Box>

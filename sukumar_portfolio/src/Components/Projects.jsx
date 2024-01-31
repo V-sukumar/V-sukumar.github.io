@@ -2,6 +2,38 @@ import React from 'react'
 import { Heading, Flex, Box, Text, Image, Button, Link } from '@chakra-ui/react'
 
 const Projects = () => {
+  const openTech=()=>{
+    const url="https://techbazar-app-v-sukumar.vercel.app/"
+    window.open(url,'_blank')
+  }
+  const openTechGithub=()=>{
+    const url="https://github.com/samaydhawale000/Techbazar_Project_Unit-5"
+    window.open(url,'_blank')
+  }
+  const openMania=()=>{
+    const url="https://tangy-instrument-3367-rho.vercel.app/"
+    window.open(url,'_blank')
+  }
+  const openManiaGithub=()=>{
+    const url="https://github.com/V-sukumar/Dribble-mania"
+    window.open(url,'_blank')
+  }
+  const openJungleBuy=()=>{
+    const url="https://jungle-buy-amazon-clone.vercel.app/"
+    window.open(url,'_blank')
+  }
+  const openJungleBuyGithub=()=>{
+    const url="https://github.com/V-sukumar/agreeable-transport-9100"
+    window.open(url,'_blank')
+  }
+  const openCodeCollab=()=>{
+    const url="https://frondend-v-sukumar.vercel.app/"
+    window.open(url,'_blank')
+  }
+  const openCodeCollabGithub=()=>{
+    const url="https://github.com/rk28284/native-fog-9540"
+    window.open(url,'_blank')
+  }
   return (
     <div id="projects">
       <Box mx="auto" w="90%">
@@ -22,8 +54,9 @@ const Projects = () => {
                 <Image w={['100%', '668px']} src='./Tech project.png' />
               </Box>
               <Box display="flex" justifyContent={['center']} gap={2} mt={16} mb={10}>
-                <Link href='https://techbazar-app-v-sukumar.vercel.app/' class="project-deployed-link">
+                <Link  class="project-deployed-link">
                   <Button
+                  onClick={openTech}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -36,8 +69,9 @@ const Projects = () => {
                     <i>LIVE</i>
                   </Button>
                 </Link>
-                <Link href='https://github.com/samaydhawale000/Techbazar_Project_Unit-5' class="project-github-link">
+                <Link class="project-github-link">
                   <Button
+                  onClick={openTechGithub}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -95,8 +129,9 @@ const Projects = () => {
                 <Image w={['100%', '668px']} src='./Dribbble project.png' />
               </Box>
               <Box display="flex" justifyContent={['center']} gap={2} mt={16} mb={10}>
-                <Link href='https://tangy-instrument-3367-rho.vercel.app/' class="project-deployed-link">
+                <Link  class="project-deployed-link">
                   <Button
+                  onClick={openMania}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -109,8 +144,9 @@ const Projects = () => {
                     <i>LIVE</i>
                   </Button>
                 </Link>
-                <Link href='https://github.com/V-sukumar/Dribble-mania' class="project-github-link">
+                <Link  class="project-github-link">
                   <Button
+                  onClick={openManiaGithub}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -165,8 +201,9 @@ const Projects = () => {
                 <Image w={['100%', '668px']} src='./Amazon project.png' />
               </Box>
               <Box display="flex" justifyContent={['center']} gap={2} mt={16} mb={10}>
-                <Link href='https://jungle-buy-amazon-clone.vercel.app/' class="project-deployed-link">
+                <Link  class="project-deployed-link">
                   <Button
+                  onClick={openJungleBuy}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -179,8 +216,9 @@ const Projects = () => {
                     <i>LIVE</i>
                   </Button>
                 </Link>
-                <Link href='https://github.com/V-sukumar/agreeable-transport-9100' class="project-github-link">
+                <Link  class="project-github-link">
                   <Button
+                  onClick={openJungleBuyGithub}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -236,8 +274,9 @@ const Projects = () => {
                 <Image w={['100%', '668px']} src='./Code project.png' />
               </Box>
               <Box display="flex" justifyContent={['center']} gap={2} mt={16} mb={10}>
-                <Link href='https://frondend-v-sukumar.vercel.app/' class="project-deployed-link">
+                <Link  class="project-deployed-link">
                   <Button
+                  onClick={openCodeCollab}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}
@@ -250,8 +289,9 @@ const Projects = () => {
                     <i>LIVE</i>
                   </Button>
                 </Link>
-                <Link href='https://github.com/rk28284/native-fog-9540' class="project-github-link">
+                <Link  class="project-github-link">
                   <Button
+                  onClick={openCodeCollabGithub}
                     p={5}
                     border={['1px solid #4CBB17', '2px solid #4CBB17']}
                     bg={['#4CBB17', '#4CBB17']}

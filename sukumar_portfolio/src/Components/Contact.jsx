@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box, Container, Flex, Image, Img, Text } from '@chakra-ui/react'
+import { Box,  Flex, Image,  Text } from '@chakra-ui/react'
 const Contact = () => {
+  
   return (
     <div id="contact">
           <Box m={"auto"} w={"90%"} >
@@ -22,12 +23,12 @@ const Contact = () => {
                 <br />
                 <Flex gap={15}>
                   <Image  h={25} src='./linkedin2.png'/>
-                  <a href="https://www.linkedin.com/in/suku-sukumar" style={{textDecoration:'none'}}><Text fontFamily={'Ubuntu, sans-serif'} fontSize={20} fontWeight={500} color={' rgb(36, 45, 73)'} id="contact-linkedin"><i>https://www.linkedin.com/in/suku-sukumar</i> </Text></a>
+                  <a href="https://www.linkedin.com/in/suku-sukumar"  target='blank' style={{textDecoration:'none'}}><Text fontFamily={'Ubuntu, sans-serif'} fontSize={20} fontWeight={500} color={' rgb(36, 45, 73)'} id="contact-linkedin"><i>https://www.linkedin.com/in/suku-sukumar</i> </Text></a>
                 </Flex>
                 <br />
                 <Flex gap={15}>
                   <Image  h={25} src='./github2.png'/>
-                  <a href="https://github.com/V-sukumar" style={{textDecoration:'none'}} id="contact-github"><Text fontFamily={'Ubuntu, sans-serif'} fontSize={20} fontWeight={500} color={' rgb(36, 45, 73)'}><i>https://github.com/V-sukumar</i> </Text></a>
+                  <a href="https://github.com/V-sukumar" target='blank' style={{textDecoration:'none'}} id="contact-github"><Text fontFamily={'Ubuntu, sans-serif'} fontSize={20} fontWeight={500} color={' rgb(36, 45, 73)'}><i>https://github.com/V-sukumar</i> </Text></a>
                 </Flex> 
               </Box>
             </Flex>
